@@ -2,11 +2,11 @@
 Reads emails,ready to be used
 
 
-#Installation
+### Installation
 Working on it
 
-#Using
+### Using
 Please change the Username, Password & server deatils listed in 
 
-#ToDo
+### ToDo
 tests need to be passing
