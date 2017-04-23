@@ -1,4 +1,0 @@
-#!/var/www/email_parser/venv/bin/python
-# EASY-INSTALL-SCRIPT: 'AdvancedHTMLParser==7.0.0','formatHTML'
-__requires__ = 'AdvancedHTMLParser==7.0.0'
-__import__('pkg_resources').run_script('AdvancedHTMLParser==7.0.0', 'formatHTML')
