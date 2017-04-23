@@ -34,7 +34,7 @@ class Emailer(object):
                         raw   = email.message_from_string(response_part[1])
                         curr_email  = Email(raw=raw)
                         curr_email.parse()
-        return True
+                        self.emails.append(curr_email)
 
     def get_emails( self ):
         return self.emails

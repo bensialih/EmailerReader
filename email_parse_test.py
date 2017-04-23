@@ -17,11 +17,13 @@ class TestEmailParser(unittest.TestCase):
  	def test_get_mail(self):
  		# print('login worked')
  		self.emailer.read_mail()
- 		self.assertTrue(self.emailer.process())
+ 		self.emailer.process()
+ 		emails = self.emailer.get_emails()
+ 		self.assertTrue(len(emails) == 5)
 
  	def test_email_init(self):
- 		email = Email(raw="Hello world")
- 		print(email.get_raw_email())
+ 		email = Email(raw="Hello Emailer")
+ 		email.get_raw_email()
 
 
 
