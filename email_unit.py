@@ -10,7 +10,7 @@ parser = Parser()
 class Email(object):
 	"""docstring for Email"""
 	def __init__(self, **email_props ):
-		# super(Email, self).__init__()
+		super(Email, self).__init__()
 		for key, prop in email_props.items():
 			setattr(Email, key, prop)
 
